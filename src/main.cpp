@@ -63,6 +63,7 @@ int main()
         
         if (event == "telemetry") {
           // j[1] is the data JSON object
+          std::cout << "--------------" << std::endl;
 
 
           if (!pf.initialized()) {
